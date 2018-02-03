@@ -5,6 +5,7 @@ the one that has the maximum value if it is Max's turn, and the one that has the
 
 Inputs: current_board_position, who_plays <br />
 Outpus: Predicting who is going to win (Min or Max), best possible move <br />
+*Outputs generated after running the script.
 
 Pseudocode: <br />
 
@@ -15,8 +16,6 @@ Pseudocode: <br />
 5:        v = max(v, min_value(child)) <br />
 6:     return v  <br />
 <br />
-<br />
-
 1:  min_value(node):<br />
 2:     if end_state(node): return value(node) <br />
 3:     v = +Inf <br />
